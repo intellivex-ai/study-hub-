@@ -1,0 +1,29 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+database/*.json
+!database/schema.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDES
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Specific
+database/ml_shadow_logs.json
+frontend/dist/
+backend/__pycache__/
